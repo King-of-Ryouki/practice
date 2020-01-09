@@ -1,26 +1,26 @@
 # 程式實作
 
-# Index
+# 目錄
 - [C++](#c)
-    - data_structure
-    - rsa
-    - search
-    - sort
+    - 資料結構
+    - rsa 加密
+    - 搜尋
+    - 排序演算法
 
 - [Java](#Java)
-    - data_structure
+    - 資料結構
 
 # C++
-- data_structure
+- 資料結構
     - singly_linked_list
 - rsa
     - rsa
-- search
+- 搜尋
     - binary_search
     - breadth_first_search
     - depth_first_search
 
-- sort
+- 排序演算法
     - bubble_sort
     - cocktail_sort
     - heap_sort
@@ -34,5 +34,5 @@
 ---
 
 # Java
-- sort
+- 排序演算法
     - QuickSort

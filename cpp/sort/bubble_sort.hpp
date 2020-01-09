@@ -45,8 +45,7 @@ void BubbleSort(T arr[], int &arr_size) {
 
 // vector 迭代器
 template <typename T>
-void BubbleSortVector(T iter_begin,
-                      T iter_end) { // T = vector<int>::iterator
+void BubbleSortVector(T iter_begin, T iter_end) { // T = vector<int>::iterator
 
     for (auto i = iter_begin; i != iter_end; ++i) {
 
@@ -56,7 +55,7 @@ void BubbleSortVector(T iter_begin,
 
             if (*j > *(j + 1)) {
                 swap(*j, *(j + 1));
-                is_swapped = true; // 表示此轮循环进行了交换
+                is_swapped = true;
             }
         }
 
