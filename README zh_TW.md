@@ -30,9 +30,3 @@
     - radix_sort
     - selection_sort
     - shell_sort
-
----
-
-# Java
-- 排序演算法
-    - QuickSort
