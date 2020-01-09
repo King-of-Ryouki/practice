@@ -105,7 +105,8 @@ void QuickSortRecursive2(T arr[], int arr_start, int arr_end) {
     int left  = arr_start;
     int right = arr_end;
 
-    int arr_mid = arr[ arr_start + (arr_end - arr_start) / 2 ];
+    int mid     = arr_start + (arr_end - arr_start) / 2;
+    int arr_mid = arr[ mid ];
 
     while (left <= right) {
 
@@ -124,8 +125,8 @@ void QuickSortRecursive2(T arr[], int arr_start, int arr_end) {
         }
     }
 
-    QuickSortRecursive2(arr, arr_start, right);
-    QuickSortRecursive2(arr, left, arr_end);
+    QuickSortRecursive2(arr, arr_start, mid - 1);
+    QuickSortRecursive2(arr, mid + 1, arr_end);
 }
 
 template <typename T>
