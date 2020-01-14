@@ -7,9 +7,6 @@
     - search
     - sort
 
-- [Java](#Java)
-    - data_structure
-
 # C++
 - data_structure
     - singly_linked_list
